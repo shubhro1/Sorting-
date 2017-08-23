@@ -11,6 +11,7 @@ public class NewSort1 {
 		for(int k=0;k<l;k++){
 			arr[k]=sc.nextInt();
 			}
+		for(int i=0;i<arr.length;i++){
 			for (int j = i + 1; j < l; j++) 
             {
                 if (arr[i] > arr[j]) 
@@ -31,4 +32,4 @@ public class NewSort1 {
         }
         System.out.print(arr[l - 1]);
     }
-}
+}}
